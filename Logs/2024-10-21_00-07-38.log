@@ -1,0 +1,145 @@
+2024-10-21 00:07:38,407 - INFO - Starting product analysis...
+2024-10-21 00:07:38,407 - INFO - Processing image: apples.jpg...
+2024-10-21 00:07:40,181 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:41,887 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:43,593 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:45,292 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:46,994 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:48,710 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:50,485 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:52,200 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:52,200 - INFO - Answers for apples.jpg:  Yes,  Yes,  No,  No,  No,  No,  Yes,  Yes
+
+2024-10-21 00:07:52,200 - INFO - Processing image: bananas.jpg...
+2024-10-21 00:07:53,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:55,709 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:57,435 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:07:59,154 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:00,882 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:02,646 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:04,375 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:06,154 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:06,154 - INFO - Answers for bananas.jpg:  Yes,  Yes,  No,  No,  No,  No,  Yes,  Yes.
+
+2024-10-21 00:08:06,154 - INFO - Processing image: barrys_tea.jpg...
+2024-10-21 00:08:07,924 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:09,701 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:11,442 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:13,235 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:14,987 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:16,694 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:18,419 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:20,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:20,116 - INFO - Answers for barrys_tea.jpg:  Yes,  No,  Yes,  no,  Yes,  no,  No,  No
+
+2024-10-21 00:08:20,116 - INFO - Processing image: brennans.jpg...
+2024-10-21 00:08:21,826 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:23,543 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:25,214 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:26,966 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:28,769 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:30,855 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:32,743 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:34,619 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:34,619 - INFO - Answers for brennans.jpg:  Yes,  No,  Yes,  No,  Yes,  no,  Yes,  No
+
+2024-10-21 00:08:34,619 - INFO - Processing image: budweiser.jpg...
+2024-10-21 00:08:36,444 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:38,237 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:40,027 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:41,758 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:43,536 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:45,350 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:47,188 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:49,006 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:49,006 - INFO - Answers for budweiser.jpg:  Yes,  No,  No,  No,  Yes,  Yes,  Yes,  No
+
+2024-10-21 00:08:49,006 - INFO - Processing image: dairy_milk.jpg...
+2024-10-21 00:08:50,977 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:52,813 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:54,637 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:56,455 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:08:58,240 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:00,044 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:01,892 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:03,687 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:03,687 - INFO - Answers for dairy_milk.jpg:  Yes,  No,  Yes,  No,  No,  no,  No,  No
+
+2024-10-21 00:09:03,687 - INFO - Processing image: digestive_biscuits.jpg...
+2024-10-21 00:09:05,442 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:07,191 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:08,968 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:10,749 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:12,486 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:14,271 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:16,048 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:17,787 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:17,787 - INFO - Answers for digestive_biscuits.jpg:  Yes,  No,  No,  No,  No,  No,  No,  No
+
+2024-10-21 00:09:17,787 - INFO - Processing image: ginger_nut_biscuits.jpg...
+2024-10-21 00:09:19,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:21,375 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:23,184 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:24,937 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:26,693 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:28,445 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:30,183 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:31,992 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:31,993 - INFO - Answers for ginger_nut_biscuits.jpg:  Yes,  Yes,  Yes,  No,  No,  No,  Yes,  No
+
+2024-10-21 00:09:31,993 - INFO - Processing image: lyons_tea.jpg...
+2024-10-21 00:09:33,823 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:35,613 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:37,361 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:39,106 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:40,906 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:42,745 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:44,582 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:46,408 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:46,408 - INFO - Answers for lyons_tea.jpg:  Yes,  No,  No,  No,  Yes,  No,  Yes,  Yes
+
+2024-10-21 00:09:46,409 - INFO - Processing image: pringles.jpg...
+2024-10-21 00:09:48,228 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:50,054 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:51,873 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:53,768 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:55,560 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:57,315 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:09:59,068 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:00,845 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:00,846 - INFO - Answers for pringles.jpg:  No,  No,  Yes,  No,  No,  No,  No,  No
+
+2024-10-21 00:10:00,846 - INFO - Processing image: steak.jpg...
+2024-10-21 00:10:02,667 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:04,579 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:06,424 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:08,273 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:10,215 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:12,016 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:13,800 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:15,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:15,674 - INFO - Answers for steak.jpg:  Yes,  No,  No,  Yes,  Yes,  No,  Yes,  No
+
+2024-10-21 00:10:15,674 - INFO - Processing image: wafer_bars.jpg...
+2024-10-21 00:10:17,610 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:19,521 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:21,263 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:23,022 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:24,908 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:26,727 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:28,497 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:30,255 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:30,255 - INFO - Answers for wafer_bars.jpg:  Yes,  No,  No,  No,  Yes,  No,  No,  No
+
+2024-10-21 00:10:30,255 - INFO - Processing image: white_wine.jpg...
+2024-10-21 00:10:31,987 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:33,778 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:35,511 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:37,245 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:38,980 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:40,727 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:42,491 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:44,268 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-10-21 00:10:44,268 - INFO - Answers for white_wine.jpg:  Yes,  No,  No,  No,  No,  Yes,  Yes,  No
+
+2024-10-21 00:10:44,269 - INFO - Product analysis completed.

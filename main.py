@@ -1,44 +1,57 @@
 import os
 import ollama
+import logging
+import pandas as pd
+from datetime import datetime
 
-# content = """Please return a brief description of this product, then separated by a hyphen return a list of true or false values separated by commas for the following statements:
-# 	1. Is this product edible?
-# 	2. Is this product a fruit?
-# 	3. Is this product a vegetable?
-# 	4. Is this product a meat?
-# 	5. Is this product a dairy product?
-# 	6. Is this product an alcoholic beverage?
-#     7. Is this product healthy?
-# 	8. Is this product vegan?
-# """
+# Step 1: Create Logs folder if it doesn't exist
+log_folder = "Logs"
+if not os.path.exists(log_folder):
+    os.makedirs(log_folder)
 
-content = """Return a comma-separated list of "true" or "false" for the following:
-Edible?
-Fruit?
-Vegetable?
-Meat?
-Dairy product?
-Alcoholic beverage?
-Healthy?
-Vegan?
+# Step 2: Create log filename with date and time
+log_filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S.log")
+log_filepath = os.path.join(log_folder, log_filename)
 
-Here is an example of how to format your response:
-true, true, false, false, false, false, true, true
-"""
+# Step 3: Set up logging configuration
+logging.basicConfig(
+    filename=log_filepath,
+    level=logging.INFO,  # You can adjust the logging level
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
+questions = [
+    'Is this product edible? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+    'Is this product a fruit? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+    'Is this product a vegetable? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+    'Is this product a meat? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+    'Is this product a dairy product? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+    'Is this product an alcoholic beverage? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+    'Is this product healthy? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+    'Is this product suitable for vegans? Please return "yes" or "no" only, here is an example of how to format your response: "yes", here is an another example of how to format your response: "no"',
+]
+
+# Log the start of processing
+logging.info("Starting product analysis...")
 
 for image in os.listdir("images"):
-    print(f"Processing: {image}...")
+    logging.info(f"Processing image: {image}...")
 
-    res = ollama.chat(
-        model="llava:13b",
-        messages=[
-            {
-                "role": "user",
-                "content": content,
-                "images": [f"images/{image}"],
-            }
-        ],
-    )
+    answers = []
+    for question in questions:
+        res = ollama.chat(
+            model="llava:13b",
+            messages=[
+                {
+                    "role": "user",
+                    "content": question,
+                    "images": [f"images/{image}"],
+                }
+            ],
+        )
 
-    print(res["message"]["content"])
-    print()
+        answers.append(res["message"]["content"])
+
+    logging.info(f"Answers for {image}: {', '.join(answers)}\n")
+
+logging.info("Product analysis completed.")
